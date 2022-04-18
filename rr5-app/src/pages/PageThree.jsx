@@ -5,7 +5,7 @@ export default function PageThree (props) {
   let { thirdId } = useParams();
   return (
     <>
-      <h1>PageThree ID:{thirdId}</h1>
+      <h1>PageThree ID: {thirdId}</h1>
     </>
   );
 }

@@ -27,7 +27,7 @@ export default function Header (props) {
 
       <Switch>
         <Route path="/pageone/:firstId" component={PageOne}></Route>
-        <Route path="/pagetwo/:secondId" component={PageTwo}></Route>
+        <Route path="/pagetwo/:secondId/user/:subSecondId" component={PageTwo}></Route>
         <Route path="/pagethree/:thirdId" component={PageThree}></Route>
         <Route path="/" component={Home}></Route>
       </Switch>
